@@ -1,0 +1,199 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/background.png');
+    margin:  0;
+}
+
+
+.heading{
+    background: white;
+    padding: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.contentbox1{
+    width: 960px;
+    background: white;
+    margin: 0 auto;
+ 
+}
+
+.contentbox2{
+    width: 960px;
+    background: white;
+    margin: 0 auto;
+    padding: 25px;
+    
+}
+
+.name{
+    background: #4aaaa5;
+    color: white;
+    width: 250px;
+    text-align: center;
+    padding: 25;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+li{
+    display: inline;
+    border-right: 2px solid #ddd;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.otherPage {
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    float: right;
+    margin-top: -50px;
+}
+
+#about{
+    color: #4aaaa5;
+}
+
+.me{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 15%;
+    display: inline-block;
+    margin: 15px;
+}
+
+li:hover {
+    background: #4aaaa5;
+}
+
+a:link    {
+    /* Applies to all unvisited links */
+    text-decoration:  none;
+    font-weight:      bold;
+    color: rgb(189, 188, 188);
+    } 
+p{
+    font-size: 1.25em;
+}
+
+.footer{
+    border-top: 5px solid teal;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    background: #666666;
+    height: 50px;
+    color: white;
+    width: 100%;
+}
+
+hr{
+    background-color: #666666;
+}
+#Message{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+#Email{
+    width: 100%;
+}
+
+#Name{
+    width: 100%;
+}
+
+input[type=reset] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: rgb(2, 116, 116);
+}
+
+.PH{
+    height: 200px;
+    width: 250px;
+    float: left;
+    border-radius: 15%;
+    display: inline-block;
+    margin: 15px;
+}
+
+.pic {
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 18px;
+    background: teal;
+}
+
+
+@media screen and (max-width: 980px) {
+    .contentbox1{
+        width: 840px;
+        background: white;
+        margin: 0 auto;
+     
+    }
+    .contentbox2{
+        width: 840px;
+        background: white;
+        margin: 0 auto;
+        padding: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contentbox1{
+        width: 628px;
+        background: white;
+        margin: 0 auto;
+     
+    }
+    .contentbox2{
+        width: 628px;
+        background: white;
+        margin: 0 auto;
+        padding: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .contentbox1{
+        width: 500px;
+        background: white;
+        margin: 0 auto;
+     
+    }
+    .contentbox2{
+        width: 500px;
+        background: white;
+        margin: 0 auto;
+        padding: 15px;
+        border: 10px;
+        
+    }
+    ul{
+    font-size: 10px;
+    }
+}
