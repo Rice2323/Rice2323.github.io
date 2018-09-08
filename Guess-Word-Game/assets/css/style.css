@@ -1,0 +1,49 @@
+.header{
+    margin: 0 auto;
+    background-image: url(../images/logos.jpg);
+    background-size: contain;
+    text-align: center;
+    color:  rgba(187, 187, 8, 0.959); 
+    font-family: 'Bangers', cursive;
+    
+}
+
+body {
+    background-image: url(../images/hall-of-justice.jpg);
+    background-size: 100%;
+
+}
+
+.content1 {
+    
+    margin: 0 auto;
+    border: dashed red;
+    padding: 5px;
+    font-family: 'Bangers', cursive;
+}
+
+.content2 {
+    
+    margin: 0 auto;
+    border: dashed  rgba(187, 187, 8, 0.959);
+    color:  blue;
+    font-size: 25px;
+}
+
+.content3 {
+    
+    margin: 0 auto;
+    border: dashed blue;
+    color:  white;
+    font-size: 20px;
+    background: rgba(187, 187, 8, 0.959);
+    opacity: .75;
+}
+
+.instruct{
+    text-align: center;
+    font-size: 20px;
+    color:  rgba(187, 187, 8, 0.959); 
+}
+
+
